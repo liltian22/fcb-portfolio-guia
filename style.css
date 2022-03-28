@@ -1,0 +1,61 @@
+/*
+comments
+*/
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1,h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+/*ID selector*/
+#landing {
+	height: 80vh;
+	/*manipulate the contents of an element using flexbox*/
+	/*arrange the elemets in row*/
+	display: flex;
+	/*arrange the contents of an elements with flex, as a column*/
+	flex-direction: column;
+	/*center all contents of an element with flex as a column*/
+	/*align horizontally*/
+	align-items: center;
+	/*center all contents of an elements with flex as a column
+	(vetically)*/
+	justify-content: center;
+}
+#gallery {
+	height: 75vh;
+	/*center the contents of gallery 
+	horizontally and vertically using flex*/
+	display: flex;
+	flex-direction: column;/*making content in column*/
+	align-items: center;/*aligning content horizontally*/
+	justify-content: center;/*align content vetically*/
+}
+ul {
+	list-style: none;/*remove the bullets*/
+	padding: 0;/*remove auto margins*/
+}
+h2 {
+	color: #007bff;
+}
+
+/*class selector - .(dot)*/
+.tools {
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+	margin: 20px;
+	height: 200px;
+	/*the width of this element is at least 75% of its 
+	parent element or the element that contains*/
+	width: 75%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
